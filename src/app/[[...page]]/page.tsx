@@ -19,7 +19,7 @@ builder.init(process.env.NEXT_PUBLIC_BUILDER_API_KEY!);
 // Page props for dynamic routing
 interface PageProps {
   params: {
-    page: string[];
+    page?: string[];
   };
 }
 
